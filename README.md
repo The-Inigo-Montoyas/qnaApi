@@ -1,5 +1,9 @@
 # Agile Creations Questions and Answers API
 
+## Contributor
+
+Gabe Chacon
+
 ## Overview and Results
 
 A team of engineers and I developed a back end API for a single page e-commerce web application. We were given some legacy code from a front end system, and I was tasked with providing the dataset for the questions and answers section.  We were also given csv data in the millions, so I performed an ETL process to load that data into a database. The final result was a back end system that could handle production level traffic.
