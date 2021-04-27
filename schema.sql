@@ -39,3 +39,24 @@ CREATE TABLE photos (
 -- FROM '/Users/gchacon2/Desktop/hrsea-15repos/qnaApi/CSV/answers_photos.csv'
 -- DELIMITER ','
 -- CSV HEADER;
+
+
+
+--  TO MAKE A FILE TO UPLOAD TO THE INSTANCE
+-- pg_dump dbname=qanda -f qanda.sql
+
+-- TO START AWS INSTANCE
+-- ssh -i qandaDB.pem ubuntu@18.224.27.189
+
+-- INSTALL EVERYTHING IN THE AWS SLIDES ON gLEARN
+
+-- CHANGE POSTGRES CONFIG FILES (add host all to pg_hba.config && connection setting on postgresql.conf to listen_addresses '*')
+-- sudo nano /etc/postgresql/10/main/pg_hba.conf
+-- sudo nano /etc/postgresql/10/main/postgresql.conf
+
+-- TO LOAD DATABASE INTO INSTANCE DATABASE
+-- sudo psql -h 18.224.27.189 -p 5432 -U postgres < qanda.sql
+
+-- To access psql in ubuntu use:
+-- sudo -i -u postgres
+-- psql

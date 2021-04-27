@@ -8,10 +8,10 @@ const app = express();
 const port = 3001;
 
 const config = {
-  host: 'localhost',
-  user: 'gchacon2',
-  database: 'qanda',
-  password: '',
+  host: '3.139.205.193',
+  user: 'postgres',
+  database: 'postgres',
+  password: 'HackReactor123!',
   port: 5432
 };
 const pool = new pg.Pool(config); // maybe botttle neck
