@@ -2,7 +2,7 @@
 
 ## Contributor
 
-Gabe Chacon
+[Gabe Chacon](https://github.com/gabinochacon8 "Gabe Chacon")
 
 ## Overview and Results
 
